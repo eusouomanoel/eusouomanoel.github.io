@@ -5,15 +5,15 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #EBE7E7;
-  heigth: 100%;
+  background: #ebe7e7;
   width: 100%;
 }
 
-.header {
+.container {
   text-align: center;
   padding: 32px;
-  background: #E0DDDD;
+  background: #e0dddd;
+  font-style: bold;
 }
 
 @media (max-width: 800px) {
