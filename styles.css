@@ -1,23 +1,15 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  background: #ebe7e7;
-  width: 100%;
+.perfil_img {
+    border-radius: 50%;
 }
 
 .container {
-  text-align: center;
-  padding: 32px;
-  background: #e0dddd;
-  font-style: bold;
+    height: 100vh;
 }
 
-@media (max-width: 800px) {
-  #gallery img {
-    width: 50%;
-  }
+article {
+    color: whitesmoke;
+}
+
+grid {
+    background-color: aliceblue;
 }
