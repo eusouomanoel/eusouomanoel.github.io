@@ -1,15 +1,28 @@
 .perfil_img {
     border-radius: 50%;
+    height: 60%;
+    border: 10px solid rgb(136, 136, 136);
 }
 
-.container {
-    height: 100vh;
+.div_perfil_img {
+    display: flex;
+}
+
+.container01 {
+    height: 50vw;
+}
+
+.container02 {
+    height: 20vw;
 }
 
 article {
-    color: whitesmoke;
+    width: 100%;
+    height: 40%;
+    color: white;
 }
 
-grid {
-    background-color: aliceblue;
+i:hover {
+    transform: scale(150%, 150%);
+    transition: 0.5s;
 }
